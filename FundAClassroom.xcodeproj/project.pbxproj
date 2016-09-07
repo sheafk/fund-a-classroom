@@ -15,6 +15,7 @@
 		1B9D42B71D80B02400350CAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9D42B51D80B02400350CAE /* LaunchScreen.storyboard */; };
 		1B9D42C11D80B4D800350CAE /* ProjectProposal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C01D80B4D800350CAE /* ProjectProposal.swift */; };
 		1B9D42C31D80B89700350CAE /* DonorsChooseAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C21D80B89700350CAE /* DonorsChooseAPIClient.swift */; };
+		1B9D42C51D80BA1000350CAE /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9D42C41D80BA1000350CAE /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1B9D42B81D80B02400350CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9D42C01D80B4D800350CAE /* ProjectProposal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectProposal.swift; sourceTree = "<group>"; };
 		1B9D42C21D80B89700350CAE /* DonorsChooseAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonorsChooseAPIClient.swift; sourceTree = "<group>"; };
+		1B9D42C41D80BA1000350CAE /* Secrets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = ../Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		1B9D42A81D80B02400350CAE /* FundAClassroom */ = {
 			isa = PBXGroup;
 			children = (
+				1B9D42C41D80BA1000350CAE /* Secrets.swift */,
 				1B9D42A91D80B02400350CAE /* AppDelegate.swift */,
 				1B9D42AB1D80B02400350CAE /* ViewController.swift */,
 				1B9D42C01D80B4D800350CAE /* ProjectProposal.swift */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B9D42AC1D80B02400350CAE /* ViewController.swift in Sources */,
+				1B9D42C51D80BA1000350CAE /* Secrets.swift in Sources */,
 				1B9D42C11D80B4D800350CAE /* ProjectProposal.swift in Sources */,
 				1B9D42C31D80B89700350CAE /* DonorsChooseAPIClient.swift in Sources */,
 				1B9D42AA1D80B02400350CAE /* AppDelegate.swift in Sources */,
