@@ -15,15 +15,15 @@ class ProjectProposal {
     
     init(dictionary: NSDictionary) {
         guard let
-            teacherName = dictionary["teacherName"] as? String,
+            name = dictionary["teacherName"] as? String,
             valueAsString = dictionary["proposalURL"] as? String,
             valueAsURL = NSURL(string: valueAsString),
-            proposalID = dictionary["id"]?.stringValue
-            else { fatalError("Could not create proposal object from supplied dictionary") }
+            propoID = dictionary["id"]?.stringValue
+            else { fatalError("Could not create repository object from supplied dictionary") }
         
         htmlURL = valueAsURL
-        fullName = name
-        repositoryID = repoID
+        teacherName = name
+        proposalID = propoID
     }
     
 }
